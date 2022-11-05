@@ -5,7 +5,7 @@
 $user = "caux";
 $password = "caux";
 $database = "caux";
-$table = "TEST";
+$table = "employee";
 $conn= new PDO("pgsql:host=192.168.40.132;dbname=$database", $user, $password);
 
 
